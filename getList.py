@@ -12,13 +12,13 @@ def getProjects():
                 category = getCategory.group(1)
 
                 problems = re.findall(r"\*\*([\w|\s]+)\*\*\s-\s(.+)",f)
-                categories[category] = problems
+                categories[category] = sorted(problems)
     return categories
 
 def createList():
     categories = getProjects()
     string = ""
-    for category in categories:
+    for category in sorted(categories):
         string += "\n##"+category+"\n"
         for project in categories[category]:
             string += "**"+project[0]+"** - "+project[1]+"\n\n"
