@@ -1,5 +1,7 @@
 
 ##Classes
+[ ] **Airline  Hotel Reservation System** - Create a reservation system which books airline seats or hotel rooms. It charges various rates for particular sections of the plane or hotel. Example, first class is going to cost more than coach. Hotel rooms have penthouse suites which cost more. Keep track of when rooms will be available and can be scheduled.
+
 [ ] **Bank Account Manager** - Create a class called Account which will be an abstract class for three other classes called CheckingAccount, SavingsAccount and BusinessAccount. Manage credits and debits from these accounts through an ATM style program.
 
 [ ] **Family Tree Creator** - Create a class called Person which will have a name, when they were born and when (and if) they died. Allow the user to create these Person classes and put them into a family tree structure. Print out the tree to the screen.
@@ -7,6 +9,8 @@
 [ ] **Flower Shop Ordering To Go** - Create a flower shop application which deals in flower objects and use those flower objects in a bouquet object which can then be sold. Keep track of the number of objects and when you may need to order more.
 
 [ ] **Image Gallery** - Create an image abstract class and then a class that inherits from it for each image type. Put them in a program which displays them in a gallery style format for viewing.
+
+[ ] **Patient  Doctor Scheduler** - Create a patient class and a doctor class. Have a doctor that can handle multiple patients and setup a scheduling program where a doctor can only handle 16 patients during an 8 hr work day.
 
 [ ] **Product Inventory Project** - Create an application which manages an inventory of products. Create a product class which has a price, id, and quantity on hand. Then create an *inventory* class which keeps track of various products and can sum up the inventory value.
 
@@ -60,6 +64,8 @@
 
 [ ] **Quiz Maker** - Make an application which takes various questions form a file, picked randomly, and puts together a quiz for students. Each quiz can be different and then reads a key to grade the quizzes.
 
+[ ] **Sort ExcelCSV File Utility** - Reads a file of records, sorts them, and then writes them back to the file. Allow the user to choose various sort style and sorting based on a particular field.
+
 
 ##Graphics and Multimedia
 [ ] **Mp3 Player** - A simple program for playing your favorite music files. Add features you though are missing from your favorite music player.
@@ -76,6 +82,8 @@
 ##Graphs
 [ ] **Connected Graph** - Create a program which takes a graph as an input and outputs whether every node is connected or not.
 
+[ ] **Dijkstras Algorithm** - Create a program that finds the shortest path through a graph using its edges.
+
 [ ] **Eulerian Path** - Create a program which will take as an input a graph and output either a Eulerian path or a Eulerian cycle, or state that it is not possible.  A Eulerian Path starts at one node and traverses every edge of a graph  through every node and finishes at another node.  A Eulerian cycle is a eulerian Path that starts and finishes at the same node.
 
 [ ] **Graph from links** - Create a program that will create a graph or network from a series of links.
@@ -87,6 +95,8 @@
 [ ] **Country from IP Lookup** - Enter an IP address and find the country that IP is registered in. *Optional: Find the Ip automatically.*
 
 [ ] **FTP Program** - A file transfer program which can transfer files back and forth from a remote web sever.
+
+[ ] **Mail Checker POP3  IMAP** - The user enters various account information include web server and IP, protocol type (POP3 or IMAP) and the application will check for email at a given interval.
 
 [ ] **Port Scanner** - Enter an IP address and a port range where the program will then attempt to find open ports on the given computer by connecting to each of them. On any successful connections mark the port as open.
 
@@ -110,6 +120,8 @@
 
 [ ] **Credit Card Validator** - Takes in a credit card number from a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a valid number (look into how credit cards use a checksum).
 
+[ ] **Dijkstras Algorithm** - Create a program that finds the shortest path through a graph using its edges.
+
 [ ] **Distance Between Two Cities** - Calculates the distance between two cities and allows the user to specify a unit of distance. This program may require finding coordinates for the cities like latitude and longitude.
 
 [ ] **Factorial Finder** - The Factorial of a positive integer, n, is defined as the product of the sequence n, n-1, n-2, ...1 and the factorial of zero, 0, is defined as being 1. Solve this using both loops and recursion.
@@ -132,6 +144,8 @@
 
 [ ] **Tax Calculator** - Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.
 
+[ ] **Unit Converter temp currency volume mass and more** - Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
+
 
 ##Security
 [ ] **Caesar cipher** - Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys.
@@ -144,11 +158,17 @@
 
 [ ] **Count Words in a String** - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
 
+[ ] **Fortune Teller Horoscope** - A program that checks your horoscope on various astrology sites and puts them together for you each day.
+
+[ ] **Guestbook  Journal** - A simple application that allows people to add comments or write journal entries. It can allow comments or not and timestamps for all entries. Could also be made into a shout box. *Optional: Deploy it on Google App Engine or Heroku or any other PaaS (if possible, of course).*
+
 [ ] **Markdown to HTML Converter** - Converts Markdown formatted text into HTML files. Implement basic tags like `p`, `strong`, `em` etc. *Optional: Implement all tags from [Markdown Syntax Docs](http://daringfireball.net/projects/markdown/syntax).* 
 
 [ ] **Pig Latin** - Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Read Wikipedia for more information on rules.
 
 [ ] **Post it Notes Program** - A program where you can add text reminders and post them. *Optional: You can have the program also add popup reminders.*
+
+[ ] **Quote Tracker market symbols etc** - A program which can go out and check the current value of stocks for a list of symbols entered by the user. The user can set how often the stocks are checked. For CLI, show whether the stock has moved up or down. *Optional: If GUI, the program can show green up and red down arrows to show which direction the stock value has moved.*
 
 [ ] **RSS Feed Creator** - Given a link to RSS/Atom Feed, get all posts and display them.
 
@@ -159,6 +179,8 @@
 [ ] **Reverse a String** - Enter a string and the program will reverse it and print it out.
 
 [ ] **Text Editor** - Notepad style application that can open, edit, and save text documents. *Optional: Add syntax highlighting and other features.*
+
+[ ] **Vigenere  Vernam  Ceasar Ciphers** - Functions for encrypting and decrypting data messages. Then send them to a friend.
 
 
 ##Threading
@@ -172,6 +194,8 @@
 
 [ ] **Content Management System** - Create a content management system (CMS) like Joomla, Drupal, PHP Nuke etc. Start small. *Optional: Allow for the addition of modules/addons.*
 
+[ ] **ECard Generator** - Make a site that allows people to generate their own little e-cards and send them to other people. Do not use Flash. Use a picture library and perhaps insightful mottos or quotes.
+
 [ ] **Fetch Current Weather** - Get the current weather for a given zip/postal code. *Optional: Try locating the user automatically.*
 
 [ ] **Get Atomic Time from Internet Clock** - This program will get the true atomic time from an atomic time clock on the Internet. Use any one of the atomic clocks returned by a simple Google search.
@@ -181,6 +205,8 @@
 [ ] **Page Scraper** - Create an application which connects to a site and pulls out all links, or images, and saves them to a list. *Optional: Organize the indexed content and don’t allow duplicates. Have it put the results into an easily searchable index file.*
 
 [ ] **Scheduled Auto Login and Action** - Make an application which logs into a given site on a schedule and invokes a certain action and then logs out. This can be useful for checking web mail, posting regular content, or getting info for other applications and saving it to your computer.
+
+[ ] **Web Board Forum** - Create a forum for you and your buddies to post, administer and share thoughts and ideas.
 
 [ ] **Web Browser with Tabs** - Create a small web browser that allows you to navigate the web and contains tabs which can be used to navigate to multiple web pages at once. For simplicity don’t worry about executing Javascript or other client side code.
 

@@ -1,0 +1,10 @@
+# Write some code that simulates flipping a single coin however many times the user decides. The code should record the
+# outcomes and count the number of tails and heads.
+
+import sys, os 
+
+def main():
+    # Code here
+
+if __name__ == "__main__": 
+    main()

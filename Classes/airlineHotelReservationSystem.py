@@ -1,0 +1,11 @@
+# Create a reservation system which books airline seats or hotel rooms. It charges various rates for particular sections of the
+# plane or hotel. Example, first class is going to cost more than coach. Hotel rooms have penthouse suites which cost
+# more. Keep track of when rooms will be available and can be scheduled.
+
+import sys, os 
+
+def main():
+    # Code here
+
+if __name__ == "__main__": 
+    main()
