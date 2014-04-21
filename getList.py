@@ -21,7 +21,7 @@ def createList():
     for category in categories:
         string += "\n##"+category+"\n"
         for project in categories[category]:
-            string += "**"+project[0]+"** - "+project[1]+"\n"
+            string += "**"+project[0]+"** - "+project[1]+"\n\n"
     f = open("list.md","w")
     f.write(string)
 
