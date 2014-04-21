@@ -152,11 +152,11 @@
 
 
 ##Text
-[ ] **Check if Palindrome** - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
+[x] **Check if Palindrome** - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
 
-[ ] **Count Vowels** - Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
+[x] **Count Vowels** - Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
 
-[ ] **Count Words in a String** - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
+[x] **Count Words in a String** - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
 
 [ ] **Fortune Teller Horoscope** - A program that checks your horoscope on various astrology sites and puts them together for you each day.
 
@@ -164,7 +164,7 @@
 
 [ ] **Markdown to HTML Converter** - Converts Markdown formatted text into HTML files. Implement basic tags like `p`, `strong`, `em` etc. *Optional: Implement all tags from [Markdown Syntax Docs](http://daringfireball.net/projects/markdown/syntax).* 
 
-[ ] **Pig Latin** - Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Read Wikipedia for more information on rules.
+[x] **Pig Latin** - Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Read Wikipedia for more information on rules.
 
 [ ] **Post it Notes Program** - A program where you can add text reminders and post them. *Optional: You can have the program also add popup reminders.*
 
@@ -198,15 +198,14 @@
 
 [ ] **Fetch Current Weather** - Get the current weather for a given zip/postal code. *Optional: Try locating the user automatically.*
 
-[ ] **Get Atomic Time from Internet Clock** - This program will get the true atomic time from an atomic time clock on the Internet. Use any one of the atomic clocks returned by a simple Google search.
+[x] **Get Atomic Time from Internet Clock** - This program will get the true atomic time from an atomic time clock on the Internet. Use any one of the atomic clocks returned by a simple Google search.
 
 [ ] **Online White Board** - Create an application which allows you to draw pictures, write notes and use various colors to flesh out ideas for projects. *Optional: Add feature to invite friends to collaborate on a white board online.*
 
-[ ] **Page Scraper** - Create an application which connects to a site and pulls out all links, or images, and saves them to a list. *Optional: Organize the indexed content and don’t allow duplicates. Have it put the results into an easily searchable index file.*
+[x] **Page Scraper** - Create an application which connects to a site and pulls out all links, or images, and saves them to a list. *Optional: Organize the indexed content and don’t allow duplicates. Have it put the results into an easily searchable index file.*
 
 [ ] **Scheduled Auto Login and Action** - Make an application which logs into a given site on a schedule and invokes a certain action and then logs out. This can be useful for checking web mail, posting regular content, or getting info for other applications and saving it to your computer.
 
 [ ] **Web Board Forum** - Create a forum for you and your buddies to post, administer and share thoughts and ideas.
 
 [ ] **Web Browser with Tabs** - Create a small web browser that allows you to navigate the web and contains tabs which can be used to navigate to multiple web pages at once. For simplicity don’t worry about executing Javascript or other client side code.
-
